@@ -95,6 +95,7 @@
                     "gender":"M",
                     "clade":"C"
                 },
+                'closestSequences': ['MT429184.1', 'MT614555.1', 'MT614454.1',...],
                 "variants":{
                     "aa":{
                         "sProtein":[
@@ -136,88 +137,26 @@
                         [
                             100,
                             "A",
-                            "T"
+                            "T",
+                            [['downstream_gene_variant', 'MODIFIER', 'M'], ...]
                         ],
                         [
                             101,
                             "T",
-                            "C"
+                            "C",
+                            [['upstream_gene_variant', 'MODIFIER', 'N']]
                         ],
                         [
                             301,
                             "C",
-                            "G"
+                            "G",
+                            [['missense_variant', 'MODERATE', 'ORF8']]
                         ]
                     ]
                 },
                 "sequence":"CTGA.."
             },
-            {
-                "id":"sq2",
-                "meta":{
-                    "nation":"IT",
-                    "date":"GMT+020200312..",
-                    "gender":"M",
-                    "clade":"A"
-                },
-                "variants":{
-                    "aa":{
-                        "sProtein":[
-                            [
-                                100,
-                                "A",
-                                "B"
-                            ],
-                            [
-                                101,
-                                "B",
-                                "T"
-                            ],
-                            [
-                                301,
-                                "C",
-                                "M"
-                            ]
-                        ],
-                        "ORF1":[
-                            [
-                                100,
-                                "A",
-                                "C"
-                            ],
-                            [
-                                101,
-                                "B",
-                                "T"
-                            ],
-                            [
-                                301,
-                                "C",
-                                "M"
-                            ]
-                        ]
-                    },
-                    "nc":[
-                        [
-                            100,
-                            "A",
-                            "T"
-                        ],
-                        [
-                            101,
-                            "T",
-                            "C"
-                        ],
-                        [
-                            301,
-                            "C",
-                            "G"
-                            
-                        ]
-                    ]
-                },
-                "sequence":"CTGA.."
-            }
+            ....
         ]
     }
 }
