@@ -93,7 +93,8 @@
                     "nation":"IT",
                     "date":"GMT+020200312..",
                     "gender":"M",
-                    "clade":"C"
+                    "lineage":"C"
+                    "closestSequences" : [NCBI_ID1, NCBI_ID3]
                 },
                 "variants":{
                     "aa":{
@@ -158,7 +159,8 @@
                     "nation":"IT",
                     "date":"GMT+020200312..",
                     "gender":"M",
-                    "clade":"A"
+                    "lineage":"A",
+                    "closestSequences" : [NCBI_ID1, NCBI_ID3]
                 },
                 "variants":{
                     "aa":{
